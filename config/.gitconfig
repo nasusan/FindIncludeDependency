@@ -1,0 +1,16 @@
+[user]
+	name = nasusan
+	email = watanabexy@gmail.com
+[core]
+	autocrlf = true
+	excludesfile = c:\\users\\codegeass\\documents\\gitignore_global.txt
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[alias]
+	co = checkout
+	st = status
+	b = branch
+[gui]
+	recentrepo = D:/GitRepos/CheckMyAct
