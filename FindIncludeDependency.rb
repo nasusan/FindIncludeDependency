@@ -4,6 +4,14 @@
 require 'find'
 require 'nkf'
 
+class IncludedList
+		@path
+		@included_fle_path={}
+
+		def IncludedList.push
+		end
+end
+
 
 $inclist={}
 
